@@ -76,5 +76,3 @@ gdf = gpd.GeoDataFrame(records, crs="EPSG:2056")
 gdf.to_file(OUTPUT_FILE, layer=LAYER_NAME, driver="GPKG")
  
 print(f"Saved {len(gdf)} tiles → {os.path.abspath(OUTPUT_FILE)}")
-
-#asfasf
